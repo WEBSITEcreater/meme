@@ -1,0 +1,72 @@
+.bootstrapbutton {
+  color: white !important;
+}
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+html {
+  background: #333333
+}
+
+.header {
+  color: white;
+}
+
+.card-body {
+  color: white;
+  background: gray;
+}
+
+.btn-primary {
+  color: white;
+  background-color: blue;
+}
+
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲  */
+.card {
+  opacity: 0;
+  transition: opacity .3s;
+}
+
+.card:hover {
+  opacity: 1;
+}
+
+.card-title {
+  position: absolute;
+}
+
+.card-des {
+  position: relative;
+  bottom: -25px;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+.card-body {
+  min-height: 200px;
+}
+
+#particles-js {
+  position: fixed;
+  top: 0px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  text-align: center;
+  font-size: 72px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.card-group {
+  margin-bottom: 10px;
+}
+
+body {
+  background: transparent;
+}

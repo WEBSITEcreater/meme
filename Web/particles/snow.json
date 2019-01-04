@@ -1,0 +1,33 @@
+{
+  "particles": {
+    "number": {
+      "value": 500
+    },
+    "color": {
+      "value": "random"
+    },
+    "shape": {
+      "type": "image",
+      "image": {
+        "src": "../images/smile face.png"
+      }
+    },
+    "size": {
+      "value": 50,
+      "random": true
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 30,
+      "color": "#0dd4db",
+      "opacity": 10,
+      "width": 2
+    },
+    "move": {
+      "speed": 10,
+      "direction": "bottom-right",
+      "straight": false,
+      "out_mode": "out"
+    }
+  }
+}
